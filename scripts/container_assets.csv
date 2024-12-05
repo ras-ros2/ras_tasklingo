@@ -1,0 +1,4 @@
+type,id,aruco_id,content_name,content_volume,content_color,active_status,position,orientation,landmark
+beaker,A,101,empty,0,none,1,"[0.2, -0.35, 0.25]","[-0.014, 0, 0.027, 1]",none
+beaker,B,102,water,70,colorless,0,"[0.28, -0.14, 0.16]","[0.014, 0, 0, 1]",none
+
