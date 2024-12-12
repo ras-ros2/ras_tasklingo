@@ -40,7 +40,7 @@ class NLP(Node):
         pose_sequence = process_pose_sequence(final_module_sequence, containers_dict)
 
         # Define the output YAML file path
-        output_yaml_path = os.path.join('/oss_sim_lab/ros2_ws/src/oss_bt_framework/7.yaml')  # You can change the path as needed
+        output_yaml_path = os.path.join('/ras_sim_lab/ros2_ws/src/ras_bt_framework/7.yaml')  # You can change the path as needed
         # Write the pose sequence to the YAML file
         try:
             with open(output_yaml_path, 'w') as yaml_file:

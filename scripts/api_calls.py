@@ -3,7 +3,7 @@ import json
 import os
 
 MODEL = "gpt-4o-2024-08-06"
-PATH = os.path.join(os.environ["OSS_WORKSPACE_PATH"], "src" , "oss_tasklingo", "config", "openai.json")
+PATH = os.path.join(os.environ["RAS_WORKSPACE_PATH"], "src" , "ras_tasklingo", "config", "openai.json")
 
 def generate_sequence_module(input):
     with open(PATH) as f:
